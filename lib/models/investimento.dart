@@ -1,5 +1,3 @@
-// MODEL: dados e regras de cálculo. Não conhece nada de interface (Flutter).
-
 /// Guarda os dados de um investimento e calcula a sua evolução.
 class Investimento {
   final double capitalInicial;
@@ -12,11 +10,6 @@ class Investimento {
     required this.taxaMensal,
   });
 
-  /// Saldo ao final de cada mês, usando juros compostos.
-  ///
-  /// Regra de cada mês:  saldo = saldo * (1 + taxa) + aplicação
-  /// (juros sobre o saldo anterior; o aporte entra no fim do mês).
-  /// A posição 0 da lista é o capital inicial (mês 0).
   List<double> calcularEvolucao(int meses) {
     final taxa = taxaMensal / 100;
     final saldos = <double>[capitalInicial];

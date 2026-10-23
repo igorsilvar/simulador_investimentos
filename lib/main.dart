@@ -1,4 +1,3 @@
-// Ponto de entrada do app. Só configura o tema e define a tela inicial.
 import 'package:flutter/material.dart';
 
 import 'views/tela_entrada.dart';

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../utils.dart/formatadores.dart';
 
 /// Barra horizontal proporcional ao valor (comparação visual simples).

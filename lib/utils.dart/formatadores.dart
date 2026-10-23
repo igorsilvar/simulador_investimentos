@@ -1,4 +1,4 @@
-/// Formata um valor como moeda brasileira, ex.: 1234.5 -> "R$ 1.234,50".
+/// Formata um valor como moeda brasileira.
 String formatarReais(double valor) {
   final negativo = valor < 0;
   final partes = valor.abs().toStringAsFixed(2).split('.');

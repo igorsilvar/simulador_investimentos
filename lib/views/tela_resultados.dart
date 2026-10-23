@@ -1,7 +1,6 @@
 // VIEW: tela de resultados. Não faz cálculos: apenas lê o ViewModel e,
 // quando ele avisa que mudou (notifyListeners), redesenha com setState.
 import 'package:flutter/material.dart';
-
 import '../utils.dart/formatadores.dart';
 import '../viewmodels/resultados_viewmodel.dart';
 import 'widgets/barra_comparativa.dart';

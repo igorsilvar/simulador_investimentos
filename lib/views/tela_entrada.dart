@@ -2,7 +2,6 @@
 // do usuário ao ViewModel.
 import 'package:flutter/material.dart';
 import 'package:simulador_investimentos/views/widgets/cartao_formul%C3%A1rio.dart';
-
 import '../viewmodels/entrada_viewmodel.dart';
 import 'tela_resultados.dart';
 import 'widgets/campo_numero.dart';
@@ -37,7 +36,7 @@ class _TelaEntradaState extends State<TelaEntrada> {
     super.dispose();
   }
 
-  /// Valida o formulário, pede ao ViewModel para simular e navega.
+  /// Valida o formulário e pede ao ViewModel para simular e navega.
   void _simular() {
     if (!_formKey.currentState!.validate()) return;
 
@@ -118,7 +117,6 @@ class _TelaEntradaState extends State<TelaEntrada> {
     );
   }
 
-  /// Bloco de campos de um investimento (evita repetir código).
   Widget _blocoInvestimento(
       String titulo,
       Color cor,

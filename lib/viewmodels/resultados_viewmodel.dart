@@ -1,7 +1,5 @@
 // VIEWMODEL da tela de resultados: calcula, guarda o estado da tela
-// (ex.: modo de exibição da tabela) e prepara os dados para a View.
 import 'package:flutter/foundation.dart';
-
 import '../models/investimento.dart';
 import '../utils.dart/formatadores.dart';
 

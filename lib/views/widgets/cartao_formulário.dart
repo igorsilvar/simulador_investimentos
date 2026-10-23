@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 /// Cartão com título colorido que agrupa os campos de um bloco do formulário.
 class CartaoFormulario extends StatelessWidget {
   final String titulo;

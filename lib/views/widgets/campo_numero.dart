@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Campo numérico reutilizável. A regra de validação vem de fora
-/// (do ViewModel) pelo parâmetro [validator].
 class CampoNumero extends StatelessWidget {
   final TextEditingController controller;
   final String rotulo;

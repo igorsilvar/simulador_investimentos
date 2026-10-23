@@ -1,5 +1,4 @@
 // VIEWMODEL da tela de entrada: validação dos campos e criação da simulação.
-// A View só mostra os campos; toda a lógica de conversão/validação fica aqui.
 import '../models/investimento.dart';
 import 'resultados_viewmodel.dart';
 
@@ -26,9 +25,6 @@ class EntradaViewModel {
     return null;
   }
 
-  /// Monta os investimentos a partir dos textos digitados e devolve o
-  /// ViewModel da tela de resultados (com os cálculos já feitos).
-  /// Só deve ser chamado depois que o formulário foi validado.
   ResultadosViewModel simular({
     required String meses,
     required String capital1,
